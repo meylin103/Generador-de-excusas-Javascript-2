@@ -5,7 +5,7 @@ import "./style.css";
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
-window.onload = function () {
+function generarExcusa (){
 
   let who = ['The dog', 'My grandma', 'The mailman', 'My bird'];
   let action = ['ate', 'peed', 'crushed', 'broke'];
@@ -22,3 +22,5 @@ window.onload = function () {
 document.getElementById("excuse").innerHTML = excuse;
 
 };
+
+document.getElementById ("miBoton").addEventListener("click",generarExcusa)

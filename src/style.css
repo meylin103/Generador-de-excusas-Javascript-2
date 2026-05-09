@@ -1,5 +1,30 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+  background: rgb(219, 212, 212);
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centra verticalmente */
+  align-items: center;     /* centra horizontalmente */
+  height: 100vh;           /* ocupa toda la altura de la ventana */
+  margin: 0;
+}
+
+#excuse {
+  font-size: 1.5rem;
+  color: rgb(63, 10, 63);
+  margin-top: 20px;
+  text-align: center;
+}
+
+#miBoton {
+  font-size: 1.5rem;
+  color: white;
+  background-color: purple;
+  margin: 20px auto;
+  display: block; /* Esto centra el botón */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
 }
